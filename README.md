@@ -1,23 +1,30 @@
 # Calculadora con interfaz gráfica
 
-Aplicación de escritorio en Python que permite realizar operaciones con matrices desde una interfaz gráfica, construida con Tkinter y programación orientada a objetos.
+Calculadora de escritorio hecha en Python con Tkinter y programación orientada a objetos. Realiza suma, resta, multiplicación y división.
+
+Trabajo de la asignatura Informática 2, Universidad Pedagógica Nacional (UPN), Bogotá, Colombia.
 
 ## Autor
 
-- stiven chaves diaz juan esteban romero 
-- Universidad Pedagógica Nacional (UPN), Bogotá, Colombia
+- Stiven chaves diaz - juan esteban romero
+
+## Características
+
+- Panel con una matriz de 4x4 botones donde se distribuyen los números y las operaciones.
+- Cuadro de texto (textbox) donde se visualizan las operaciones y el resultado.
+- Operaciones: suma, resta, multiplicación y división.
 
 ## Requisitos
 
 - Python 3.10 o superior
-- Tkinter (viene incluido con la instalación estándar de Python en Windows)
+- Tkinter (incluido en la instalación estándar de Python en Windows)
 
 No se necesitan librerías externas.
 
 ## Archivos
 
 - ventana.py: interfaz gráfica (clase CalculadoraMatriz). Es el archivo que se ejecuta.
-- operaciones.py: lógica de las operaciones con matrices.
+- operaciones.py: lógica de las operaciones.
 
 ## Cómo ejecutarlo
 
@@ -29,12 +36,6 @@ No se necesitan librerías externas.
 python ventana.py
 
 
-## Funcionalidades
+## Diseño del software
 
-- Ingreso de matrices desde la interfaz
-- Operaciones con matrices (suma, resta, multiplicación, etc.; ajusta esta lista a lo que implementaste)
-- Manejo de errores con mensajes al usuario
-
-## Estructura del código
-
-El proyecto separa la interfaz (ventana.py) de la lógica (operaciones.py), de modo que las operaciones se pueden probar sin abrir la ventana.
+Diagramas de casos de uso, de clases y de secuencias incluidos en el repositorio
